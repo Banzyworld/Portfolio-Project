@@ -1,0 +1,89 @@
+
+body {
+  
+    font-family: 'Poppins', sans-serif;
+    
+    /* height: 95vh; */
+}
+
+
+section {
+    background: rgba(0, 0, 0, 0.615) url(/images/background8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        
+   
+}
+
+input {
+    
+    width: 100%;
+    padding:  5px 1px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:#ccc;
+    
+     
+
+}
+
+
+#gender_selct {
+    width: 100%;
+    padding:  5px 1px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color:#ccc;
+    cursor: pointer;
+
+
+}
+
+#submitbtn_input {
+
+    background-color: rgb(39, 58, 102);
+    color: white;
+    margin-top: 20px;
+
+}
+
+#submitbtn_input:hover {
+    color: black;
+    background-color: lavender;
+}
+
+
+label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+

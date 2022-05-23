@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about-me {
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    background-color:  rgb(68, 76, 96);
+    /* height: 280vh; */
+    /* position: absolute; */
+
+}
+
+.about_img {
+    max-width: 200px;
+    opacity: 0.8; 
+    border-radius: 5px;
+
+}
+
+.about_me {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+
+aside h1 {
+    color: rgb(234, 234, 95);
+    font-size: 30px;
+}
+
+
+p{
+  color:  white; 
+}
+
+h2 {
+  color: skyblue;
+}
+
+ul li {
+   font-style: bold;
+    list-style: none;
+    color: white;
+}
+
+ 

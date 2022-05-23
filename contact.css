@@ -1,0 +1,79 @@
+
+
+
+.contact_me {
+
+    background: url(/images/Background6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: start;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+#contact {
+    /* background-color: rgb(39, 58, 102); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vh;
+ 
+}
+
+
+
+
+/* 
+  input {
+    width: 100%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:#ccc;
+
+}  */
+
+#message_text {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color:#ccc;
+    font-size: 16px;
+    
+} 
+
+#submit_buttn {
+    /* width: 100%; */
+    color: white;
+    background-color:rgb(39, 58, 102);
+    padding: 5px 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+
+
+}
+
+#submit_button:hover {
+    color: black;
+    background-color: lavender;
+}
+
+
+label {
+    color: white;
+    letter-spacing: 1px;
+}

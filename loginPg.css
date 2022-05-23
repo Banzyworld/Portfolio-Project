@@ -1,0 +1,96 @@
+section {
+    background: rgb(39, 58, 102) url(/images/background8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+     
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 74vh;
+    max-height: 80vh;
+ 
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+#username_login {
+    width: 100%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:#ccc;
+
+}
+
+
+
+#password_login {
+    width: 100%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color:#ccc;
+
+}
+
+
+#submit_login {
+    width: 100%;
+    color: white;
+    background-color:rgb(39, 58, 102);
+    padding: 14px 12px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+
+
+}
+
+#submit_login:hover {
+    color: black;
+    background-color: lavender;
+    margin-bottom: 20px;
+
+}
+
+label {
+    color: white;
+    text-align: left;
+
+}
+
+
+span a {
+    color: white;}
+
+span a:hover {
+    color: yellow;
+}
