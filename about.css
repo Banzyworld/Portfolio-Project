@@ -24,10 +24,12 @@
 
 .about_me {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;   
+    height: 76vh;
+    overflow:auto;
+    /* margin: 0 10px o 20px; */
 }
 
 
@@ -36,6 +38,9 @@ aside h1 {
     font-size: 30px;
 }
 
+h3 {
+    color: skyblue;
+}
 
 p{
   color:  white; 
@@ -47,8 +52,12 @@ h2 {
 
 ul li {
    font-style: bold;
-    list-style: none;
+    list-style-type: style none;
     color: white;
 }
 
+span {
+    color: skyblue;
+    font-style:inherit;
+}
  

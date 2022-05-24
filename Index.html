@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="/loginPg.css">
-    <link rel="stylesheet" href="/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/contact.css">
+    <link rel="stylesheet" href="/about.css">
     <script src="https://kit.fontawesome.com/26dbb85490.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,32 +29,168 @@
                  <br>
                 <li><a href="/Register.html">Register</a></li> 
                 <br>
-                <li><a href="/Login.html"> <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                <li><a href="/login.html"> <i class="fa-solid fa-right-to-bracket"></i> </a></li>
                 <br>
+                <li><a href="/calculator.html"><i class="fa-solid fa-calculator"></i></a></li>
             </ul>
+            
      
                         
          </nav>
                  <a href="/#contact"><button> HIRE ME </button></a>
-      
+                
+        </div>      
+                    
     </header>
-    
-<section>
-        <h1> Log in to your account   </h1>
-    <form action="">
-        <label for="username">Username</label>
-        <input type="username" name="username" id="username_login" placeholder="Phone / Email"><br>
-        <label for="password">Password</label>
-        <input type="password" name="passsword" id="password_login" placeholder="*********"> <br>
-        <a href="/homepage.html"><input type="button" value="Sign In" name="submit" id="submit_login"></a>
 
-        <label for="new_account"> Don't have an account? <span><a href="/Register.html">Create one </a> </span></label>
+    <main>
+    
+        <div class="intro ">
+        <h1> Hey there!</h1><h2>I'm a Software Engineer</h2>
+<!--         
+             <p>Aspiring Cloud Engineer</p>  -->
+        <br>
+        <p>I am a detail-oriented software engineer with some years of experience working with HTML, CSS, Javacript, MySQL, and Bash-scripting. Highly adept at both independent and collaborative projects, with emphasis on landing page, and, web development. Major interest in cloud architecture</p>
+      
+
+     
+        <a href="/#contact"><button class="hire_btn"> Hire Me For Your Project</button></a>
+    </div> 
+
+    <!-- <div> <a href="/calculator.html"><button>Calculator Page</button></a></div>
+     -->
+
+    <!-- <div><img src="/images/new2.jpg" alt="display_image" class="display_img"></div> -->
+
+    </main>
+
+    <section id="sec1" class="about-me">
+
+        <article id="aboutMe" class="about_me">
+
+            <aside> 
+                <div>
+            <img src="/images/new2.jpg" alt="display_image" class="about_img">
+        </div> 
+            <h1> SEGUN ALOFUN</h1>
+             <p>Aspiring Cloud Architect</p>
+            </aside> 
+
+            <div id="id-1" class="about">
+                <h2>About Me</h2>
+        <P class="descriptn">
+            I am a solution driven and result oriented engineer with a bachelor of technology honors in electrical and elcetronic engineering 
+            I have a rich work experience which cuts across various industries, from manufacturing, education, waste management and enviromnetal, oil & gas respectively.
+           
+        </P>
+    </div>
+
+    <div id="id-2" class="goals">
+        <h2> Goal for this diploma</h2>
+        <p>  So for a very long time, i always had the desire to learn tech (I mean software development) and the probblem has been not having the right resources or platform to truly learn the skills. I came across Altschool Africa via my sister, who told me about this school. I was overwhelmed with joy knowing that there is a school, that literally doesn't require you to have a computer degree, technical knowledge, and, even the skill-set to get enrolled. </p> 
+        
+        <h3> My goals are in three folds  </h3> 
+            <ul>
+                <li>Hone a skill in cloud engineering and teach it</li>
+                <li>Get necessary certifications</li>
+                <li>To be employable irrespective of the industry</li>
+            </ul>
+      
+        </div>
+        <div id="id-3" class="educatn">
+        <h2>Education </h2>
+            <ul>
+                <li>ALTSCHOOL AFRICA <br><span>Diploma in software engineering</span></li>
+                <li>LADOKE AKINTOLA UNIVERSITY OF TECHNOLOGY <br><span> Bachelor of technology in Elctronic and Electrical Engineering </span></li>
+
+           </ul>
+        </div>
+
+        <div id="id-4" class="job_exprnce">
+        <h2>Job experience</h2>
+        <ul>
+       <li> Facility Integrity Engineer</li>
+       <li>Utilities Engineer</li>
+       <li> Waste Management Supervisor</li>
+      </ul>
+
+    </div>
+
+    <div id="id-5" class="hobbies">
+        <h2>Hobbies & other skills</h2>
+        <p> I love adventures, cooking, singing and listening to afro music, workouts, football</p>
+      
+    </div>
+
+
+    </article>
+
     </section>
 
-</main>
+    <section id="sec2" class="contact_me">
+   
 
+            <form id="contact" onsubmit= "alert ('response submitted')">
+                <label for="name">Full Name</label>
+                <input type="text" name="fullname" id="name_input" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email_input" required>
+                <label for="email">Message</label>
+                <textarea name="message" id="message_text" cols="30" rows="10" required> Leave a message...</textarea>
+                <select name="priority" id="Priority_input">
+                <option value="high">High</option>  
+                 <option value="medium">Medium</option>  
+                 <option value="low">Low</option>
+                </select>
+                
+                <a href="/index.html"><input type="button" name="submit" id="submit_buttn" value="Submit"></a>
+    
+    
+            </form>
+    
+    
+       
+
+    
+
+    </section>
+    
+
+    <footer>
+       
+          <div class="email_sub">
+           <div class="forms">
+            <form action="" method="get">
+                <label for="subscribe_form"> Subscribe to my newsletter</label>
+                <input type="email" name="email" id="email_sub" placeholder="Enter your email">
+                <input type="button" name="subscribe_btn" id="sub_btn" value="Subscribe">
+            </form>
+        </div>
+            <div class="media-icons">
+               <span>Follow me on</span>
+                <a href="https://github.com/Banzyworld" class="fa-brands fa-github"></a>
+                <a href="https://twitter.com/Banzyworld" class="fa-brands fa-twitter"></a>
+                <a href="https://instagram.com/Banzyworld" class="fa-brands fa-instagram-square"></a>   
+                <a href="https://segunalofun@protonmail.com" class="fa-solid fa-envelope"></a>
+                <a href="https://www.britannica.com/place/Lagos-Nigeria" class="fa-solid fa-earth-africa"></a>       
+            </div>
+
+          </div>  
+       
+   
+          
+            
+   
+    <div class="copyright">
+            <span class="copyright_text">Copyright © 2022 <a href="#"> Banzyworld</a> All rights reserved. </span>
+
+        </div >
+    </div>
+  </footer>
 
 
 </body>
+
+
 
 </html>

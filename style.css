@@ -75,18 +75,26 @@ button:hover {
     background-color:lavender;
 }
 
+/* .display_img {
+
+     width: 500px;
+
+} */
+
+
 main {
-    background: url(/images/Background6.jpg);
+    background: rgb(39, 58, 102) url(/images/Background6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-size: cover;
+    background-size:cover;
     text-align: start;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:end;
     height: 85vh;
+    position: relative;
     
    
 }
@@ -107,11 +115,13 @@ main p {
     margin-left: 30px;
     color: white;
 }
-
+/* 
 .display_img {
 
-    width: 90%;
-}
+    width: 450px;
+    position: relative;
+    z-index: right;
+} */
 
 
 
@@ -170,6 +180,7 @@ input {
 
   
 }
+
 .forms {
    
     font-family: 'Poppins', sans-serif;
@@ -179,17 +190,19 @@ input {
 
 
 .media_icons {
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap: 50px;
     width: 20%;
-    border: 2px solid red;
+    size-adjust: 50px;
 }
 
 .media_icons a {
+
     text-decoration: none;
-    font-size: 30px;
+    size: 50px;
     color: rgb(39, 58, 102);
  
 }
@@ -198,6 +211,7 @@ input {
 
 
 .copyright {
+
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
