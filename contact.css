@@ -44,6 +44,16 @@
 
 }  */
 
+input:hover {
+
+    border-color: rgb(153, 153, 161);
+}
+
+
+
+
+
+
 #message_text {
     width: 100%;
     border: 1px solid #ccc;
@@ -53,6 +63,13 @@
     font-size: 16px;
     
 } 
+
+
+#message_text:hover {
+
+    border-color: rgb(153, 153, 161);
+}
+
 
 select {
 

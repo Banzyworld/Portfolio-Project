@@ -51,6 +51,11 @@ input {
 
 }
 
+input:hover {
+
+    border-color: black;
+}
+
 
 #gender_selct {
     width: 100%;
