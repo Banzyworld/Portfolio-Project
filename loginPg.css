@@ -27,9 +27,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-
-
-
 #username_login {
     width: 100%;
     padding: 14px 12px;
@@ -42,8 +39,9 @@ h1 {
     background-color:#ccc;
 
 }
-
-
+#username_login:hover {
+    border-color: black;
+}
 
 #password_login {
     width: 100%;
@@ -56,6 +54,10 @@ h1 {
     font-size: 17px;
     background-color:#ccc;
 
+}
+
+#password_login:hover {
+    border-color: black;
 }
 
 
@@ -79,6 +81,9 @@ h1 {
     background-color: lavender;
     margin-bottom: 20px;
 
+}
+#submit_login:active {
+    transform: translateX(0.4em);
 }
 
 label {

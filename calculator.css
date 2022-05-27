@@ -69,6 +69,12 @@ h1 {
 .button:hover {
 
     background-color: yellow;
+
+}
+
+.button:active {
+
+    transform: translateY(0.5em);
 }
 
 [value="C"] {
@@ -137,11 +143,16 @@ h1 {
     background-color: white;
     color: black;
 }
+
+.btn:active {
+    transform: translateX(0.4em);
+}
+
 .btn_color {
 
     color: greenyellow;
     background-color: black;
-     padding: 20px 20px;
+    padding: 20px 20px;
     margin: 11px 6px 1px 6px;  
     border: none;
     border-radius: 40px;
@@ -153,6 +164,10 @@ h1 {
 
     background-color: white;
     color: black;
+}
+
+.btn_color:active {
+    transform: translateX(0.4em);
 }
 
 
@@ -172,6 +187,10 @@ h1 {
 
     background-color: purple;
     color: black;
+}
+
+.btn_equal:active {
+    transform: translateY(0.4em);
 }
 
 .row {

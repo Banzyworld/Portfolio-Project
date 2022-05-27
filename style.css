@@ -46,10 +46,6 @@ body {
   
 }
 
- #nav_links li a:hover  {
-
-    color: rgb(135, 184, 184);
-}
 
 #nav_links li a {
     color: rgb(39, 58, 102);
@@ -58,6 +54,16 @@ body {
     text-transform: uppercase;
 
 }
+
+#nav_links li a:hover  {
+
+    color: rgb(135, 184, 184);
+    }
+
+ #nav_links li a:active  { 
+
+    transform: translateY(0.4em);
+    }
 
 button {
     color: white;
@@ -79,11 +85,9 @@ button:hover {
     background-color:lavender;
 }
 
-/* .display_img {
-
-     width: 500px;
-
-} */
+button:active {
+    transform: translateX(0.3em);
+}
 
 
 main {
@@ -191,6 +195,10 @@ input {
 
 }
 
+.forms:active {
+
+    transform: translateX(0.4em);
+}
 
 
 .media_icons {
