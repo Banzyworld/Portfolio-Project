@@ -44,6 +44,7 @@ h1 {
     width: 100%; 
     height: 80px;
     line-height: 70px;
+    padding: 0 1.5em;
     color: white;
     background-color: gray;
     border-radius: 2px;
@@ -129,7 +130,7 @@ h1 {
 
     color: white;
     background-color: black;
-     padding: 20px 20px;
+    padding: 20px 20px;
     margin: 11px 6px 1px 6px;  
     border: none;
     border-radius: 40px;
@@ -175,7 +176,7 @@ h1 {
 
     color: white;
     background-color: gray;
-     padding: 20px 20px;
+    padding: 20px 20px;
     margin: 11px 6px 1px 6px;  
     border: none;
     border-radius: 40px;
@@ -198,6 +199,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 70px;
     
 }
 
@@ -214,28 +217,147 @@ a:hover {
 
 
 
+/* Media query for the Table Calculator
 
+Mobile device screen */
 
-@media only screen and (max-width: 1440px) and (min-width: 757px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
  
-    /* body {
-        display: flex;
+    body {
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        height: 200vh; 
+        background-color: black;
+    }
+
+    h1 {
+        font-size: 70%;
+    }
+
+    .calculator {
+        max-width: 30vh;
+        max-height: 48vh;
+
+    }
+
+    .display_box {
+        height: 40px;
+        font-size: 11px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 3px 6px;
+        margin: 6px 1px;
+        font-size: 6px;
+                
+    }
+
+
+}
+/* Ipads & Tablet Screen */
+
+@media  only screen and (min-width: 481px) and (max-width: 768px) {
+    
+    body {
+        
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 100vh; 
+        height: 200vh; 
         background-color: black;
-    } */
+    }
+    h1 {
+       font-size: 100%;
+       margin-bottom: 0.5rem;
+    }
 
-}
-
-@media  only screen and (max-width: 375px) and (min-width: 0px) {
+    .calculator {
+        max-width: 46vh;
+        
     
-    body {
-        height: 200vh;
-        flex-direction: column;
-        align-content: space-around;       
+    }
 
+    .display_box {
+        height: 100px;
+        line-height: 35px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 16px 12px;
+        margin: 18px 4px;
+        font-size: 14px;
+            
     }
 }
- 
+
+ /*Small laptop screens  */
+@media  only screen and (min-width: 769px) and (max-width: 1024px) 
+{
+    body {
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 200vh; 
+    }
+
+
+    .calculator {
+        max-width: 46vh;
+        max-height: 79vh;
+        padding: 45px 10px 0 10px; 
+    }
+
+    .display_box {
+        height: 130px;
+        width: 41vh;
+        line-height: 35px;
+        margin: 10px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 20px 20px;
+        margin: 30px 1px;
+        font-size: 14px;
+            
+    }
+
+}
+
+/* Media query for Flex Calculator starts here */
+
+
+@media  only screen and (min-width: 769px) and (max-width: 1024px) 
+{
+    body {
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 200vh; 
+    }
+    
+    .container {
+
+        width: 46vh;
+        height: 79vh;
+    }
+
+    #display  {
+
+        height: 80px;
+    }
+
+    .btn {
+        padding: 3em 3em;
+        margin: 9em 1.4em;
+        width: 100%;
+        height: 100px;
+    } 
+}
