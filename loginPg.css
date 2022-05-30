@@ -27,6 +27,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+Input {
+
+
+
+
+
+}
+
 #username_login {
     width: 100%;
     padding: 14px 12px;
@@ -139,22 +147,9 @@ h1 {
   to {
       margin-right: 0%;
   }
+}
  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 320px) and (max-width:480px)
+ @media (min-width: 320px) and (max-width:480px)
 {
     form {
         max-width: 39vh;
