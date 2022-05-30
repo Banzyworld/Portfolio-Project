@@ -86,6 +86,15 @@ h1 {
     transform: translateX(0.4em);
 }
 
+
+input::placeholder {
+    font-size: small;
+}
+
+input:focus{
+    outline-color: blueviolet;
+}
+
 label {
     color: white;
     text-align: left;

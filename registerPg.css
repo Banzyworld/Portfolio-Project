@@ -51,6 +51,14 @@ input {
 
 }
 
+input::placeholder {
+    font-size: small; 
+}
+
+input:focus {
+    outline-color: skyblue;
+}
+
 input:hover {
 
     border-color: black;
