@@ -28,14 +28,30 @@ h1 {
 }
 
 Input {
-
-
-
-
+    width: 100%;
+    padding: 14px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color:#ccc;
 
 }
 
-#username_login {
+
+
+input::placeholder {
+    font-size: small;
+}
+
+input:focus{
+    outline-color: blueviolet;
+}
+
+
+/* #username_login {
     width: 100%;
     padding: 14px 12px;
     margin: 8px 0;
@@ -62,7 +78,7 @@ Input {
     font-size: 17px;
     background-color:#ccc;
 
-}
+} */
 
 #password_login:hover {
     border-color: black;
@@ -70,18 +86,14 @@ Input {
 
 
 #submit_login {
-    width: 100%;
     color: white;
     background-color:rgb(39, 58, 102);
-    padding: 14px 12px;
     margin: 6px 0;
     border: none;
     border-radius: 2px;
     box-sizing: border-box;
     cursor: pointer;
     font-size: 14px;
-
-
 }
 
 #submit_login:hover {
@@ -94,31 +106,13 @@ Input {
     transform: translateX(0.4em);
 }
 
-
-input::placeholder {
-    font-size: small;
-}
-
-input:focus{
-    outline-color: blueviolet;
-}
-
 label {
     color: white;
     text-align: left;
 
 }
 
-
-span a {
-    color: white;}
-
-span a:hover {
-    color: yellow;
-}
-
-
- label {
+label {
 
     animation-duration: 3s;
     animation-name: slidein;
@@ -148,6 +142,16 @@ h1 {
       margin-right: 0%;
   }
 }
+
+span a {
+    color: white;}
+
+span a:hover {
+    color: yellow;
+}
+
+
+
  
  @media (min-width: 320px) and (max-width:480px)
 {
